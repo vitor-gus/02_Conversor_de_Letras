@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(38, 83, 85);;
+}
+h1{
+    font:3rem serif;
+    color: cadetblue;
+    text-decoration: underline;
+
+}
+h1,main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text{
+    width: 800px;
+    height: 200px;
+    background-color: rgb(219, 234, 235);
+    border: none; 
+    border-radius: 5px;
+
+}
+
+button{
+    border: none;
+    width: 150px;
+    height: 50px;
+    font:  1.5rem serif;
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 6px;
+}
+
+button:hover{
+    background-color: rgb(95, 135, 136);;
+}
+
+#result{
+    width: 800px;
+    height: 200px;
+    background-color: rgb(219, 234, 235);
+    border: none; 
+    border-radius: 5px;
+}
